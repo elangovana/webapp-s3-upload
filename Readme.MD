@@ -1,0 +1,1 @@
+# Demo Sample upload to s3 using Cognitio user pool and hosted ui
