@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <script>
+        const params = new URLSearchParams(window.location.href.split("#")[1])
+        userLoggedIn(params.get('id_token'))
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <div class="jumbotron">
+            <h2>Upload ECMOCard</h1>
+                <div class="container">
+
+                    <form>
+                        <input class="btn btn-primary btn-lg active" type="file" id="docUploadEcmo" name="docUploadEcmo" />
+                        <input class="btn btn-primary btn-lg active" type="button" value="Upload" onclick="addDocument('Ecomocard','docUploadEcmo', 'spinnerEcmo')"
+                        />
+
+                        <div>
+                            <span id="spinnerEcmo">
+
+                            </span>
+                        </div>
+                    </form>
+                </div>
+
+
+
+        </div>
+
+        <div class="jumbotron">
+            <h2>Upload SPRINT-SARI</h1>
+                <div class="container">
+                    <form>
+                        <input class="btn btn-primary btn-lg active" type="file" id="docUploadSprint" name="docUploadSprint">
+                        <input class="btn btn-primary btn-lg active" type="button" value="Upload" onclick="addDocument('SprintSARI', 'docUploadSprint', 'spinnerSari')">
+                        <div>
+                            <span id="spinnerSari"></span>
+                        </div>
+
+                    </form>
+                </div>
+
+
+        </div>
+
+
+
+    </body>
+
+
+</body>
+
+</html>
