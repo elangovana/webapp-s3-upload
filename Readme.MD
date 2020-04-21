@@ -1,8 +1,10 @@
 # Demo Sample upload to Amazon S3 
 This app using Cognitio user pool and hosted ui to upload to s3 using IAM roles.
 
+![Home page](docs/home_page.png) 
+![login page](docs/hosted_ui_login.png)
 
-# Prerequisites
+## Prerequisites
 1. Set up Cognito user pools with hosted UI
 2. Set up congnito identity pool using the user pool
 3. Set up IAM role for the identity pool to have access to s3
@@ -27,8 +29,8 @@ This app using Cognitio user pool and hosted ui to upload to s3 using IAM roles.
 
 ## Configure
 
-1. The configuration is in (app.js)[src/app.js]
-2. The login hosted UI url is in (index.html)[src/index.html]
+1. The configuration is in [app.js](src/app.js)
+2. The login hosted UI url is in [src/index.html](src/index.html)
 
 ## Useful resources
 
