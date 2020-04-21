@@ -1,8 +1,10 @@
 # Demo Sample upload to Amazon S3 
 This app using Cognitio user pool and hosted ui to upload to s3 using IAM roles.
 
-![Home page](docs/home_page.png) 
-![login page](docs/hosted_ui_login.png)
+![Home page](docs/home_page.png){:height="50%" width="50%"}
+![Login page](docs/hosted_ui_login.png){:height="50%" width="50%"}
+![Upload page](docs/upload_page.png){:height="50%" width="50%"}
+
 
 ## Prerequisites
 1. Set up Cognito user pools with hosted UI
