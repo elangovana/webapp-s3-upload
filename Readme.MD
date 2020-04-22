@@ -20,6 +20,7 @@ This app using Cognitio user pool and hosted ui to upload to s3 using IAM roles.
         <AllowedMethod>DELETE</AllowedMethod>
         <AllowedMethod>HEAD</AllowedMethod>
         <AllowedHeader>*</AllowedHeader>
+        <ExposeHeader>ETag</ExposeHeader>
     </CORSRule>
     </CORSConfiguration>
     ```
